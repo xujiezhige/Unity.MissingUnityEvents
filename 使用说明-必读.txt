@@ -1,0 +1,7 @@
+1.请确保unity dll所属目录可读（p4默认拉下来是只读的）
+2.运行【Tools】->【Missing Unity Event】->【Run】
+3.选择【EventILWave.console.exe】，如果没有反应，关闭窗口重新打开。
+4.点击【Weave Events To Dll】
+5.注意：此时Unity会弹一个提示窗口，点击【close window】，另外外面还会弹一个【控制台窗口】，等unity关闭后再操作【控制台窗口】才能成功！
+
+附件：我写了一个批处理，可以直接做上面的功能，有兴趣可以阅读一下EventILWeaver_Auto.bat
